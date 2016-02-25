@@ -5,7 +5,7 @@ source ~/.shell_prompt.sh
 
 ZSH_THEME="apple"
 
-plugins=(git git-prompt vagrant tmux svn-fast-info nyan)
+plugins=(git git-prompt vagrant tmux svn-fast-info nyan archlinux docker history sudo systemd)
 
 # User configuration
 

@@ -5,7 +5,7 @@ source ~/.shell_prompt.sh
 
 ZSH_THEME="apple"
 
-plugins=(git git-prompt gradle brew brew-cask osx vagrant tmux tmuxinator svn-fast-info nyan)
+plugins=(git git-prompt vagrant tmux svn-fast-info nyan)
 
 # User configuration
 
@@ -34,14 +34,3 @@ source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 # zsh-autosuggestions is designed to be unobtrusive)
 bindkey '^T' autosuggest-toggle
 
-eval `/usr/libexec/path_helper -s`
-
-alias td=todo.sh
-alias todo="todotxt-machine ~/Dropbox/Apps/Todo.txt/todo.txt ~/Dropbox/Apps/Todo.txt/done.txt"
-alias tdvim="vim ~/Dropbox/Apps/Todo.txt/todo.txt"
-
-#export PATH="/usr/local/sbin:$PATH"
-
-export ECLIPSE_HOME="/Applications/RezIDE.app/Contents/Eclipse"
-
-alias eclim="$ECLIPSE_HOME/eclimd"

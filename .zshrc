@@ -5,7 +5,7 @@ source ~/.shell_prompt.sh
 
 ZSH_THEME="apple"
 
-plugins=(git git-prompt gradle brew brew-cask osx vagrant tmux tmuxinator svn-fast-info nyan)
+plugins=(git git-prompt gradle brew brew-cask osx vagrant tmux tmuxinator svn-fast-info nyan sudo history)
 
 # User configuration
 

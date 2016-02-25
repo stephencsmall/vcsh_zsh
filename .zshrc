@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/ssmall/.oh-my-zsh
+export ZSH=~ssmall/.oh-my-zsh
 
 source ~/.shell_prompt.sh
 
@@ -22,13 +22,13 @@ export DEFAULT_USER=ssmall
 source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # Load zsh-autosuggestions.
-source ~/.zsh/zsh-autosuggestions/autosuggestions.zsh
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # Enable autosuggestions automatically.
-zle-line-init() {
-    zle autosuggest-start
-}
-zle -N zle-line-init
+#zle-line-init() {
+#    zle autosuggest-start
+#}
+#zle -N zle-line-init
 
 # use ctrl+t to toggle autosuggestions(hopefully this wont be needed as
 # zsh-autosuggestions is designed to be unobtrusive)
@@ -40,7 +40,7 @@ alias td=todo.sh
 alias todo="todotxt-machine ~/Dropbox/Apps/Todo.txt/todo.txt ~/Dropbox/Apps/Todo.txt/done.txt"
 alias tdvim="vim ~/Dropbox/Apps/Todo.txt/todo.txt"
 
-export PATH="/usr/local/sbin:$PATH"
+#export PATH="/usr/local/sbin:$PATH"
 
 export ECLIPSE_HOME="/Applications/RezIDE.app/Contents/Eclipse"
 
